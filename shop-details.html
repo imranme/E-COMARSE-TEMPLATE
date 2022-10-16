@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/image.png">
+     <!------------- fonts family cdn ---------- -->
+     <link rel="stylesheet" href="css/google.font.css"><!-- fonts family cdn end -->
+     <!-- font awesome cdn  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+         <!--------Bootstrap CSS--------->
+     <link href="css/bootstrap.min.css" rel="stylesheet"">
+     <!--------style css------>
+     <link rel="stylesheet" href="./style.css">
+     <title>E-COMARSE-TEMPLATE</title>
+</head>
+<body>
+    <!--------------------------- header first section stirt ---------------------------->
+    <header>
+        <!-- top section stirt -->
+        <div class="container-fluid d-none d-lg-block bg-colort">
+            <div class="container p-0 py-3">
+                <div class="row">
+                    <div class="col-6">
+                        <div class="d-flex gap-5">
+                            <a class="Before position-relative text-decoration-none text-dark fs" href=""><span><i class="fa-solid fa-envelope"></i></span> tusharimranme0@gmail.com</i></a>
+                            <a class="text-decoration-none text-dark fs" href="">Free Shipping for all Order of $99</a>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex justify-content-end gap-5">
+                            <!-- icone area  -->
+                            <div class="Before position-relative d-flex gap-4">
+                                    <a class="text-dark fs" href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a class="text-dark fs" href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a class="text-dark fs" href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a class="text-dark fs" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                            </div><!-- icone area end-->
+                            <!-- Dropdown menu  -->
+                            <div class="submenuA position-relative Before">
+                                <div class="">
+                                    <img class="pb-1" src="img/image.webp" alt="">
+                                    <span class="fs"> <span class="pb-5 px-1">English</span> <i class="fa-solid fa-angle-down"></i></span>
+                                </div>
+                                <ul class="languagebar bg-dark py-1 rounded list-unstyled">
+                                    <li class="language"><a href="" class="text-decoration-none px-4 py-1 d-block text-light border-Secondary border-bottom">English</a></li>
+                                    <li class="language"><a href="" class="text-decoration-none px-4 py-1 d-block text-light border-Secondary border-bottom">Bangla</a></li>
+                                    <li class="language"><a href="" class="text-decoration-none px-4 py-1 d-block text-light">Spanish</a></li>
+                                </ul><!-- Dropdown menu  -->
+                            </div>
+                            <div class="text-end">
+                                <a href="" class="text-decoration-none text-dark fs"><span class="pe-3 fs"><i class="fa-solid fa-user-large"></i></span>Login</a>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- top section end-->
+
+        <!-- secend section stirt  -->
+        <div class="container my-3 p-0">
+           <div class="row">
+               <!-- SIDE Dropdown Menu Stirt  -->
+                <div class="col-lg-3">
+                        <div class=" d-flex justify-content-between py-3 px-3       py-lg-0 px-lg-0">
+                            <h2 class="mt-2">SHOP LESS</h2>
+
+                            <!-- SIDE Dropdown Menu Stirt  -->
+                            <button id="dropButton" class="bbutn d-lg-none btn border-2 border-dark text-end">
+                                <span class="text-dark fs-2"><i class="fa-solid fa-bars"></i></span>
+                            </button>
+                             <!-- dropdown menu stirt -->
+                             <div id="dropMenu" class="width">
+                                 <!-- logo -->
+                                <img class="h1" src="img/image.png" alt="">
+                                <!-- item react part -->
+                                <div class="d-flex gap-5 py-3 justify-content-center  mt-3 mt-lg-0">
+                                    <div>
+                                        <a href="" class="love position-relative text-dark fs-5 pe-4"><i class="fa-solid fa-heart"></i></a>
+                                        <a href="" class="Shop position-relative text-dark fs-5"><i class="fa-solid fa-bag-shopping"></i></a>
+                                    </div>
+                                    <p class="pt-1 text-secondary">item: <span class="fw-bold text-dark">$150.00</span></p>
+                                </div><!--item react part end  -->
+
+                                <!-- language slide start -->
+                                    <div class="row">
+                                        <div class="col-7">
+                                            <!-- submenu start  -->
+                                            <div class="submenuA border-end border-2 border-dark">
+                                                <img src="img/image.webp" alt="">
+                                                <span class="fs"><span class="px-2">English</span><i class="fa-solid fa-angle-down"></i></span>
+                                                <ul class="languagebar bg-dark py-1 rounded list-unstyled">
+                                                    <li class="language"><a href="" class="text-decoration-none px-4 py-1 d-block text-light border-Secondary border-bottom">English</a></li>
+                                                    <li class="language"><a href="" class="text-decoration-none px-4 py-1 d-block text-light border-Secondary border-bottom">Bangla</a></li>
+                                                    <li class="language"><a href="" class="text-decoration-none px-4 py-1 d-block text-light">Spanish</a></li>
+                                                </ul><!-- submenu end-->
+                                            </div>
+                                        </div>
+                                        <div class="col-5 text-end">
+                                            <a href="" class="text-decoration-none text-dark"><span><i class="fa-solid fa-user-large"></i></span><span class="ps-2">Login</span></a>
+                                        </div>
+                                    </div>
+                                <!-- language slide end  -->
+                                <!-- main menu stirt  -->
+                                <div class="side_mainMenu py-2 px-2 my-2 text-end">
+                                    <label for="toggle_nav" class="toggle_label">
+                                        <span class="bg-dark py-1 px-3 rounded-3 text-light fs-5 fw-bold">
+                                            Menu<span class="ps-1"><i class="fa-solid fa-bars"></i></span>
+                                        </span>
+                                    </label>
+                                    <input type="checkbox" class="toggle_nav d-none" id="toggle_nav">
+                                    <nav class="Menu text-start px-4">
+                                        <ul class="list-unstyled pt-3">  
+                                            <li><a href="index.html" class="text-decoration-none py-2 d-block text-light fw-bold">HOME</a></li>
+                                            <li><a href="shop.html" class="text-decoration-none py-2 d-block text-light fw-bold">SHOP</a></li>
+                                            <li id="sub-menu"><a href="" class="mmmn text-decoration-none hover-focus text-dark fs fw l-space ">PAGES</a>
+                                                <ul class="sub-menu">
+                                                    <li><a class="d-block text-decoration-none fw-bold" href="page/shop-details.html" target="_blank" title="Click hare to visite page">Shop Details</a></li>
+                                                    <li><a class="d-block text-decoration-none fw-bold" href="page/shoping-cart.html" target="_blank" title="Click hare to visite page">Shoping Cart</a></li>
+                                                    <li><a class="d-block text-decoration-none fw-bold" href="page/chack-out.html targ" target="_blank" title="Click hare to visite page">Check Out</a></li>
+                                                    <li><a class="d-block text-decoration-none fw-bold" href="page/blog-details.html targ" target="_blank" title="Click hare to visite page">Blog Details</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="blog.html" class="text-decoration-none py-2 d-block text-light fw-bold">BLOG</a></li>
+                                            <li><a href="contact.html" class="text-decoration-none py-2 d-block text-light fw-bold">CONTACT</a></li>
+                                        </ul>
+                                    </nav>
+                                    
+                                </div>
+
+                                 <!-- icone area stirt  -->
+                                <div id="icon" class="d-flex gap-4 ps-4 ms-2 pt-3">
+                                    <a class="text-dark" href=""><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a class="text-dark" href=""><i class="fa-brands fa-twitter"></i></a>
+                                    <a class="text-dark" href=""><i class="fa-brands fa-instagram"></i></a>
+                                    <a class="text-dark" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div><!-- icone area end  -->
+
+                                <!-- gmail section start  -->
+                                 <div class="px-1 pt-3">
+                                    <a class="position-relative text-decoration-none d-block text-dark ps-4 fs" href=""><span class="position-absolute left"><i class="fa-solid fa-envelope"></i></span> webmaruf2022@gmail.com</i></a>
+                                    <a class="text-decoration-none text-dark fs" href="">Free Shipping for all Order of $99</a>
+                                </div>
+                            </div><!-- dropdown menu end -->
+
+                        </div>
+                </div><!-- SIDE Dropdown Menu end  -->
+                    <!-- lg menu section stirt  -->
+                <div class="col-lg-6">
+                    <nav class="d-none d-lg-block">
+                        <ul class="list-unstyled d-flex gap-5 pt-3">  
+                            <li><a href="index.html" class="text-decoration-none hover-focus text-dark fs f-family l-space fw-bolder">HOME</a></li>
+                            <li><a href="#" class="text-decoration-none hover-focus text-dark fs f-family l-space fw-bolder">SHOP</a></li>
+                            <li id="sub-menu"><a href="#" class="mmmn text-decoration-none hover-focus text-dark fs fw l-space ">PAGES</a>
+                                <ul class="sub-menu">
+                                    <li><a class="d-block text-decoration-none fw-bold" href="page/shop-details.html" target="_blank" title="Click hare to visite page">Shop Details</a></li>
+                                    <li><a class="d-block text-decoration-none fw-bold" href="page/shoping-cart.html" target="_blank" title="Click hare to visite page">Shoping Cart</a></li>
+                                    <li><a class="d-block text-decoration-none fw-bold" href="page/chack-out.html targ" target="_blank" title="Click hare to visite page">Check Out</a></li>
+                                    <li><a class="d-block text-decoration-none fw-bold" href="page/blog-details.html targ" target="_blank" title="Click hare to visite page">Blog Details</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="blog.html" class="text-decoration-none blog-active hover-focus text-dark fs f-family l-space fw-bolder">BLOG</a></li>
+                            <li><a href="contact.html" class="text-decoration-none hover-focus text-dark fs f-family l-space fw-bolder">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div> <!-- lg menu section end  -->
+                <!-- login area stirt  -->
+               <div class="col-lg-3">
+                   <div class="d-flex gap-5 pt-2 justify-content-center justify-content-lg-end mt-3 mt-lg-0">
+                    <div>
+                        <a href="" class="love position-relative text-dark fs-5 pe-4"><i class="fa-solid fa-heart"></i></a>
+                        <a href="" class="Shop position-relative text-dark fs-5"><i class="fa-solid fa-bag-shopping"></i></a>
+                    </div>
+                    <p class="pt-1 text-secondary">item: <span class="fw-bold text-dark">$150.00</span></p>
+                   </div>
+               </div><!-- login area stirt  -->
+            </div>
+        </div><!--secend section end  -->
+
+        <!-- Third section stirt  -->
+        <div class="container p-0">
+            <div class="row">
+                <!-- Accordion section stirt  -->
+                <div class="col-md-6 col-xl-3">
+                    <div class="position-relative accordion-z mb-3 mb-lg-0 px-3 px-lg-0">
+                        <div class="accordion" id="AccordionOne">
+                            <div class="accordion-item">
+                              <h2 class="accordion-header text-light" id="Button">
+                                <button class="accordion-button shadow-none Accordion-my-css" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <span class="px-3 pe-3"><i class="fa-solid fa-bars"></i></span><span class="pe-4">All Department</span>
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <a href="" class="d-block text-decoration-none text-dark pb-3 pb-lg-2 pb-xl-3 ps-4">Fresh Meat</a>
+                                    <a href="" class="d-block text-decoration-none text-dark pb-3 pb-lg-2 pb-xl-3 ps-4">Vegetables</a>
+                                    <a href="" class="d-block text-decoration-none text-dark pb-3 pb-lg-2 pb-xl-3 ps-4">Fruit & Nut Gifts</a>
+                                    <a href="" class="d-block text-decoration-none text-dark pb-3 pb-lg-2 pb-xl-3 ps-4">Fresh Berries</a>
+                                    <a href="" class="d-block text-decoration-none text-dark pb-3 pb-lg-2 pb-xl-3 ps-4">Ocean Foods</a>
+                                    <a href="" class="d-block text-decoration-none text-dark pb-3 pb-lg-2 pb-xl-3 ps-4">Butter & Eggs</a>
+                                    <a href="" class="d-block text-decoration-none text-dark pb-3 pb-lg-2 pb-xl-3 ps-4">Fastfood</a>
+                                    <a href="" class="d-block text-decoration-none text-dark pb-3 pb-lg-2 pb-xl-3 ps-4">Fresh Onion</a>
+                                    <a href="" class="d-block text-decoration-none text-dark pb-3 pb-lg-2 pb-xl-3 ps-4">Papayaya & Crisps</a>
+                                    <a href="" class="d-block text-decoration-none text-dark ps-4"></a>
+                                    <a href="" class="d-block text-decoration-none text-dark pb-3 pb-lg-2 pb-xl-3 ps-4">Oatmeal</a>
+                                    <a href="" class="d-block text-decoration-none text-dark ps-4">Fresh Bananas</a>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- Accordion section stirt  -->
+                <!-- Search section stirt  -->
+                <div class="col-md-6 col-xl-6">
+                    <form class="position-relative px-3 px-lg-0" action="">
+                        <input class="container-fluid padding border" type="search" id="toggle" placeholder="What do you need?">
+                        <label class="position-absolute end-0" for="toggle">
+                            <button class="padding px-3 btn my-castom text-light fw-bold shadow-none rounded-0 me-3 me-lg-0">SEARCH</button>
+                        </label>
+                    </form>
+                </div><!-- Search section end  -->
+                <!-- call section stirt  -->
+                <div class="d-none d-xl-block col-lg-3">
+                    <div class="text-end">
+                        <div class="d-flex justify-content-end">
+                            <div class="me-4">
+                                <span class="d-block height bg-color text-center"><a href="" class="text-color"><i class="fa-solid fa-phone"></i></a></span>
+                            </div>
+                            <div>
+                                <a href="" class="d-block
+                                text-decoration-none text-dark fw">+8801902260311/a>
+                                <span class="d-block fs">Support 24/7 Time</span>
+                            </div>
+                        </div>
+                </div>
+                </div><!-- call section end  -->
+            </div>
+        </div><!-- Third section end  -->
+    </header><!-- header section end  -->
+    <!---==================== secend img section stirt ======================== -->
+    <section class="mt-5 pb-5">
+        <div class="container-fluid p-0">
+            <div class="position-relative">
+                <img class="img-fluid w-100 img-height" src="img/breadcrumb.jpg" alt="">
+                <div class="img-fonts position-absolute">
+                    <h1 class="fw-bolder">Vegetable’s Package</h1>
+                    <span><a class="text-decoration-none text-light fw-bolder" href="index.html">Home</a> - Vegetables Vegetable’s Package</span>
+                </div>
+            </div>
+        </div>
+    </section><!-- secend img section end  -->
+    <!--===================== third section stirt  =============================-->
+
+
+    <!--======================= Footer section stirt ====================== -->
+    <section class="mt-5 bg-silver p-4 p-sm-0">
+        <div class="container p-0 pt-4">
+            <div class="row pt-5 border-bottom pb-5">
+                <div class="col-sm-6 col-md-4 mb-4 mb-md-0">
+                    <h2>SHOP LESS</h2>
+                    <div class="f-family mt-4">
+                        <h6 class="mb-3">Address : Mirpur-10 Styduam-Road -1216</h6>
+                        <h6 class="mb-3">Phone : +8801902260311</h6>
+                        <h6 class="mb-3">Ggmail :tusharimranme0@gmail.com</h6>
+                        <h6>Facebook :https://www.facebook.com/ShopLess.com88</h6>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bolder">Useful Links</h5>
+                    <div class="row pt-3 f-family">
+                        <div class="col-6">
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">About Us</a>
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">About Our Shop</a>
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">Secure Shopping</a>
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">Delivery infomation</a>
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">Privacy Policy</a>
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">Our Sitemap</a>
+                        </div>
+                        <div class="col-6">
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">Who We Are</a>
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">Our Services</a>
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">Projects</a>
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">Contact</a>
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">Innovation</a>
+                            <a class="d-block text-decoration-none text-dark pb-2" href="#">Testimonials</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 mb-4 mb-md-0">
+                    <h5 class="fw-bolder">Join Our Newsletter Now</h5>
+                    <p class="f-family mt-3">Get E-mail about our latest shop and special offers.</p>
+                    <form class="position-relative px-3 px-lg-0 mt-4" action="">
+                        <input class="container-fluid padding border" type="search" id="toggle" placeholder="What do you need?">
+                        <label class="position-absolute end-0" for="toggle">
+                            <button class="padding px-3 btn my-castom text-light fw-bold shadow-none rounded-0 me-3 me-lg-0">SEARCH</button>
+                        </label>
+                    </form>
+                    <!-- icone area  -->
+                    <div class="d-flex gap-4 mt-4 pt-3">
+                        <a class="text-dark icon-bg" href="https://www.facebook.com/ShopLess.com88"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a class="text-dark icon-bg" href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a class="text-dark icon-bg" href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a class="text-dark icon-bg" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                </div><!-- icone area end-->
+                </div>
+            </div>  
+        </div>
+    </section><!-- Footer sesction end  -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!------------------------ JavaScript Bundle with Popper --------------------------->
+<script src="js/bootstrap.bundle.min.js"></script>
+<!------------ My main.js -------- -->
+<script src="js/main.js"></script>
+</body>
+</html>
